@@ -3,7 +3,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0 20px 0;
-    background-color: aqua;
+    background-color: rgb(243, 243, 243);
 }
 
 li {
@@ -29,3 +29,13 @@ a {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width:750px) {
+    .nav-links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
