@@ -1,9 +1,11 @@
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0 20px 0;
-    background-color: rgb(243, 243, 243);
+    color: white;
+
 }
 
 li {
@@ -22,21 +24,33 @@ li {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: #def2f1;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#feffff;
 }
 
 .navbar-logo {
     font-size: 1.5rem;
-    padding-left: -50px;
+}
+
+#logo-pic{
+    width: 120%;
+    height: auto;
 }
 
 @media screen and (max-width:750px) {
     .nav-links {
-        position: absolute;
+        /* position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; */
+        display: none;
     }
 }
+

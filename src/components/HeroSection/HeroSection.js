@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className="container">
             <div className="about-me">
-                <h1>
+                <h1 id="info">
                     Hello, I'm Jaehyung Yoo
                 </h1>
                 <h2>
