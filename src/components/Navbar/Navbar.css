@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background-color: aqua;
+}
+
+li {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 1.3rem;
+}
+
+.navbar-menu {
+    display: flex;
+    font-size: 16px;
+}
+
+.nav-links {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+}
+
