@@ -6,7 +6,7 @@
 
 .about-me {
     position: absolute;
-    text-align: left;
+    text-align: center;
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
